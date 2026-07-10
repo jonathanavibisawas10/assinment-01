@@ -24,6 +24,22 @@ a {
     cursor: pointer;
 }   
 
+.btn-sec{
+    background: rgb(52, 52, 54);
+    color: #fff;
+    border: 1px solid rgb(52, 52, 54);
+}
+
+.btn-sec {
+    padding: 12px 26px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: inline-block;
+    transition: all .2s ease;
+    cursor: pointer;
+}  
+
 nav {
     width: 100%;
     height: 80px;
@@ -67,6 +83,10 @@ li {
     background: #074689;
     border-color: #074689;
 }   
+
+section{
+    display: block;
+}
 
 /* header section */
 
@@ -152,4 +172,172 @@ li {
 .speaker-box p{ 
     font-size:0.85rem; 
     color: black;
+}
+
+.pricing{ 
+    padding:90px 6vw; 
+    text-align:center; 
+    background:#fafafa; 
+}
+.pricing h2{ 
+    font-size:2rem; 
+    margin-bottom:10px; 
+}
+.pricing-sub{ 
+    color:black; 
+    margin-bottom:50px; 
+}
+.pricing-grid{
+  display:grid; 
+  grid-template-columns:repeat(3, 1fr); 
+  gap:24px;
+  max-width:1000px; 
+  margin:0 auto;
+}
+.price-card{
+  background:#fff; 
+  border:1px solid lightgoldenrodyellow; 
+  border-radius:14px;
+  padding:36px 28px; 
+  text-align:left; 
+  position:relative;
+}
+.price-card.featured{
+  background: black;
+  color:#fff; 
+  border-color: black;
+}
+.price-card .badge{
+  position:absolute; top:-14px; left:50%;
+  background:blue; 
+  color:#fff; 
+  font-size:0.75rem;
+  padding:5px 14px; 
+  border-radius:100px; 
+  font-weight:600;
+}
+.price-card h2{ 
+    font-size:1.1rem; 
+    margin-bottom:10px;
+}
+.price-card .price{ 
+    font-size:2.2rem; 
+    font-weight:700; 
+    margin-bottom:24px; 
+}
+.price-card ul{ 
+    margin-bottom:28px; 
+}
+.price-card ul li{
+  font-size:0.9rem; 
+  padding:8px 0; 
+  border-bottom:1px solid black;
+}
+.price-card.featured ul li{ 
+    border-bottom:1px solid rgba(255,255,255,0.12); 
+}
+.price-card.featured .btn-sec{ 
+    border-color:rgba(255,255,255,0.3); color:#fff; 
+}
+
+/* Contact Form */
+
+.contact{
+    background:#0d1117;
+    color:white;
+    padding:80px 10%;
+}
+
+.contact h2{
+    text-align:center;
+    font-size:40px;
+    color:#00bfff;
+    margin-bottom:20px;
+}
+
+.contact-text{
+    text-align:center;
+    color:#b8c1cc;
+    margin-bottom:40px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info{
+    margin-top:40px;
+    margin-bottom:40px;
+    align-items: center;
+    border: 1px solid #00bfff;
+}
+
+.contact-info h2{
+    margin-bottom:10px;
+}
+
+.contact-info p{
+    margin:10px 0;
+    font-size:18px;
+    align-items:center;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+input,
+textarea{
+    background:#161b22;
+    border:2px solid #00bfff;
+    color:white;
+    padding:15px;
+    border-radius:8px;
+    font-size:16px;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color:#9ca3af;
+}
+
+button{
+    background:#00bfff;
+    color:white;
+    border:none;
+    padding:15px;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0095cc;
+}
+
+.footer {
+    background: #0d1117;
+    color: white;
+    padding: 20px 10%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #00bfff;
 }
