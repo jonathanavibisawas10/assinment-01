@@ -325,26 +325,24 @@ section{
     box-shadow:0 0 20px #00bfff;
 }
 
-.footer {
-    background: #0d1117;
-    color: white;
-    padding: 20px 10%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+footer{
+  display:flex; 
+  background:#0d1117; 
+  text-align:center; 
+  padding:50px 25px; 
+  color:blue
+  font-size: 0.85rem;
+  border-top: 1px solid white;
+  justify-content: space-between; 
+   
+}
+.footer-logo{
+  height:32px; 
+  width: 120px;; 
 }
 
-.footer-links {
-    display: flex;
-    gap: 30px;
-}
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
-    color: #00bfff;
+footer p{
+  margin-top:13px; 
+  color:white;
+  align-items: center;
 }
